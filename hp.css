@@ -1,0 +1,54 @@
+.Container{
+  width: 100%;
+}
+.Container{
+    
+}
+body{
+    width: 100%;
+    min-height: 100vh;
+}
+.item1{
+    border: 2px solid blue;
+    height: 80px;
+    width: 80px;
+    margin-left: 100px;
+}
+.item2{
+    border: 2px solid black;
+    width: 80px;
+    height: 80px;
+    margin-left: 50px;
+    float: left;
+    
+    
+}
+.item3{
+    border: 2px solid black;
+    width: 80px;
+    height: 80px;
+    margin-left:136px;   
+   
+}
+.item4{
+border: 2px solid blue;
+    width: 80px;
+    height: 80px; 
+    float: left;
+    
+
+}
+.item5{
+    border: 2px solid black;
+    width: 80px;
+    height: 80px;
+    margin-left:8px;
+    float:left;
+}
+.item6{
+    border: 2px solid black;
+    width: 80px;
+    height: 80px;
+    margin-left:185px;
+   
+}

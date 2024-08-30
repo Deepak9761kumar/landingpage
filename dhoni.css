@@ -1,0 +1,151 @@
+/* style.css */
+
+body, html {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+.wrapper {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+header {
+    background-color: #f4f4f4;
+    padding: 20px 0;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo a {
+    text-decoration: none;
+    font-size: 24px;
+    font-weight: bold;
+    color: #333;
+}
+
+.nav-links {
+    display: flex;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: #333;
+    padding: 0 15px;
+}
+
+.nav-links a:hover {
+    color: #007BFF;
+}
+
+.h-txt {
+    text-align: center;
+    padding: 60px 20px;
+}
+
+.h-txt h1 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+.button {
+    display: flex;
+    justify-content: center;
+}
+
+.button a {
+    text-decoration: none;
+    color: white;
+    background-color: #007BFF;
+    padding: 10px 20px;
+    margin: 0 10px;
+    border-radius: 5px;
+}
+
+.button a:hover {
+    background-color: #0056b3;
+}
+
+.icon, .section, .section1, .section2, .section3, .section4, .section5, .section6 {
+    text-align: center;
+    padding: 40px 20px;
+}
+
+.icon img, .icon2 .img img, .icon3 .b img, .icon4 .c img, .section3 img, .form1 img, .youdiv img, .youdiv1 img, .youdiv2 img, .youdiv3 img, .youdiv4 img, .youdiv5 img {
+    max-width: 100%;
+    height: auto;
+}
+
+hr {
+    margin: 20px auto;
+}
+
+/* Media Queries */
+@media (max-width: 768px) {
+    .nav-links {
+        display: none;
+    }
+
+    .h-txt h1 {
+        font-size: 24px;
+    }
+
+    .button {
+        flex-direction: column;
+    }
+
+    .button a {
+        margin: 10px 0;
+    }
+
+    .icon, .section, .section1, .section2, .section3, .section4, .section5, .section6 {
+        padding: 20px 10px;
+    }
+    
+    .youdiv, .youdiv1, .youdiv2, .youdiv3, .youdiv4, .youdiv5 {
+        margin-bottom: 20px;
+    }
+
+    .icon3, .icon4, .item {
+        flex-direction: column;
+    }
+
+    .icon2, .item1, .item2, .item3, .bott, .bott1 {
+        margin-bottom: 20px;
+    }
+
+    .icon2 .img, .icon3 .b, .icon4 .c, .section3 img, .form1 img {
+        max-width: 100%;
+        height: auto;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+    .h-txt h1 {
+        font-size: 30px;
+    }
+
+    .button a {
+        padding: 8px 16px;
+    }
+
+    .icon3, .icon4, .item {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .icon2, .item1, .item2, .item3, .bott, .bott1 {
+        margin-bottom: 20px;
+    }
+
+    .icon2 .img, .icon3 .b, .icon4 .c, .section3 img, .form1 img {
+        max-width: 100%;
+        height: auto;
+    }
+}
